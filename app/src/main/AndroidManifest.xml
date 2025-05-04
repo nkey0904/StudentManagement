@@ -21,6 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- AddStudentActivity -->
+        <activity
+            android:name=".AddStudentActivity"
+            android:exported="true">
+            <!-- Nếu cần, có thể thêm intent-filter để mở Activity này từ các ứng dụng khác -->
+        </activity>
+
+        <!-- EditStudentActivity -->
+        <activity
+            android:name=".EditStudentActivity"
+            android:exported="true">
+            <!-- Nếu cần, có thể thêm intent-filter để mở Activity này từ các ứng dụng khác -->
+        </activity>
     </application>
 
 </manifest>
